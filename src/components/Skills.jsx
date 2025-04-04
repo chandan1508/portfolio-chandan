@@ -2,42 +2,42 @@ import React from 'react';
 
 const skillItems = [
   {
-    imgSrc: './src/assets/images/figma.svg',
+    imgSrc: '../src/assets/images/figma.svg',
     label: 'Figma',
     desc: 'Design tool'
   },
   {
-    imgSrc: './src/assets/images/css3.svg',
+    imgSrc: '../src/assets/images/css3.svg',
     label: 'CSS',
     desc: 'User Interface'
   },
   {
-    imgSrc: './src/assets/images/javascript.svg',
+    imgSrc: '../src/assets/images/javascript.svg',
     label: 'JavaScript',
     desc: 'Interaction'
   },
   {
-    imgSrc: './src/assets/images/nodejs.svg',
+    imgSrc: '../src/assets/images/nodejs.svg',
     label: 'NodeJS',
     desc: 'Web Server'
   },
   {
-    imgSrc: './src/assets/images/expressjs.svg',
+    imgSrc: '../src/assets/images/expressjs.svg',
     label: 'ExpressJS',
     desc: 'Node Framework'
   },
   {
-    imgSrc: './src/assets/images/mongodb.svg',
+    imgSrc: '../src/assets/images/mongodb.svg',
     label: 'MongoDB',
     desc: 'Database'
   },
   {
-    imgSrc: './src/assets/images/react.svg',
+    imgSrc: '../src/assets/images/react.svg',
     label: 'React',
     desc: 'Framework'
   },
   {
-    imgSrc: './src/assets/images/tailwindcss.svg',
+    imgSrc: '../src/assets/images/tailwindcss.svg',
     label: 'TailwindCSS',
     desc: 'User Interface'
   },
