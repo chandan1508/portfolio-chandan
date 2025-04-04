@@ -12,7 +12,7 @@ const HeroSection = () => {
    
     <section
       id="home"
-      className="min-h-screen flex flex-col justify-center pb-10  sm:py-5"
+      className="min-h-[calc(100vh-4rem)] flex flex-col justify-center pb-10  sm:py-5"
     >
       {/* Main content */}
       <div className="flex flex-col md:flex-row items-center justify-center gap-6 md:pb-20 px-4 mx-auto max-w-screen-xl w-full md:w-4/5 h-full">
