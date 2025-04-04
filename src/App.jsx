@@ -64,7 +64,7 @@ import Hero from "./components/Hero";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 import ParticlesBackground from "./ParticlesBackground";
-import "./app.css";
+import "./App.css";
 
 const App = () => {
   return (
