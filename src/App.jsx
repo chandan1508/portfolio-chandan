@@ -69,7 +69,7 @@ import "./App.css";
 const App = () => {
   return (
     <div className="relative">
-      <div className="hidden md:block">
+      <div className="block">
         <ParticlesBackground />
       </div>
       <Header />
