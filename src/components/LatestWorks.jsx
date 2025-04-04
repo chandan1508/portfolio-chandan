@@ -1,4 +1,7 @@
 import React from "react";
+import bookImage from '../assets/images/book.png';
+import foodImage from '../assets/images/food.png';
+import cryptoImage from '../assets/images/crypto.png';
 
 const LatestWorks = () => {
   const projects = [
@@ -7,7 +10,7 @@ const LatestWorks = () => {
       subtitle: "(Online Book buying app)",
       description:
         "Developed a dynamic web application for browsing, searching, and purchasing books. Users can easily navigate through different sections of the site, explore book listings, and complete purchases.",
-      image: "./src/assets/images/book.png",
+      image: bookImage,
       link: "https://rainbow-smakager-dbcfc1.netlify.app/",
       color: "#459bd5",
       tags: [
@@ -27,7 +30,7 @@ const LatestWorks = () => {
       subtitle: "(Food Ordering App)",
       description:
         "Designed and developed a web application for browsing and ordering food, emphasizing a user-friendly and responsive interface. Included a powerful search feature to help users easily find and filter food items. Ensured a smooth and consistent experience across all devices, from desktops to mobile phones.",
-      image: "./src/assets/images/food.png",
+      image: foodImage,
       link: "https://lively-scone-ed697a.netlify.app/",
       color: "#ffe578",
       tags: ["#react.js", "#Tailwind CSS", "#javascript", "#figma"],
@@ -38,7 +41,7 @@ const LatestWorks = () => {
       subtitle: "(Crypto Price tracking app)",
       description:
         "Developed a user-friendly web application to monitor real-time cryptocurrency prices. The app features a modern, responsive interface and allows users to search and track various cryptocurrencies with ease. Integrated live data to ensure accurate and up-to-date pricing information.",
-      image: "./src/assets/images/crypto.png",
+      image: cryptoImage,
       link: "https://endearing-raindrop-0b3f37.netlify.app/",
       color: "#fc815c",
       tags: [
