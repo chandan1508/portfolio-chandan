@@ -12,7 +12,7 @@ const HeroSection = () => {
    
     <section
       id="home"
-      className="md:min-h-screen h-full flex flex-col justify-center py-10  sm:py-5"
+      className="min-h-screen flex flex-col justify-center py-10  sm:py-5"
     >
       {/* Main content */}
       <div className="flex flex-col md:flex-row items-center justify-center gap-6 md:pb-20 px-4 mx-auto max-w-screen-xl w-full md:w-4/5 h-full">
@@ -119,3 +119,4 @@ const HeroSection = () => {
 };
 
 export default HeroSection;
+
