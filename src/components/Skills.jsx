@@ -52,7 +52,7 @@ const skillItems = [
 
 const Skills = () => {
   return (
-    <section id='skills' className=" py-12 px-4 sm:px-6 lg:px-8">
+    <section id='skills' className=" py-3 px-4 sm:px-6 lg:px-8">
       <div className="max-w-4xl mx-auto">
         <h2 className="text-3xl sm:text-[40px] bg-[#ffff] relative z-10 font-bold px-4 py-2 w-max mx-auto text-center text-[#1788ae]  ">
           Essential Tools I use
