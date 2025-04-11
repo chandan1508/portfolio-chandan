@@ -1,10 +1,32 @@
 import React from "react";
 import bookImage from '../assets/images/book.png';
+import links from '../assets/images/Link Analytics.png';
 import foodImage from '../assets/images/food.png';
 import cryptoImage from '../assets/images/crypto.png';
 
 const LatestWorks = () => {
   const projects = [
+    {
+      title: "Link Analytics",
+      subtitle: "(A full-stack URL shortener with analytics dashboard)",
+      description:
+        "A full-stack Micro-SaaS URL shortener with real-time analytics. Implemented JWT-based authentication, QR code generation, and an analytics dashboard with charts for clicks, device types, and OS/browser insights. Features include smart redirection, link expiration, search, and pagination.",
+      image: links,
+      link: "https://github.com/chandan1508/link-analytics-frontend",
+      color: "#cf90ee",
+      tags: [
+        "#react.js",
+        "#express.js",
+        "#node.js",
+        "#mongoDB",
+        "#mongoose",
+        "#css",
+        "#javascript",
+        "#figma",
+        "#Rechart",
+      ],
+      order: "left",
+    },
     {
       title: "BookStore",
       subtitle: "(Online Book buying app)",
@@ -23,7 +45,7 @@ const LatestWorks = () => {
         "#javascript",
         "#figma",
       ],
-      order: "left",
+      order: "right",
     },
     {
       title: "Foody Panda",
@@ -32,9 +54,9 @@ const LatestWorks = () => {
         "Designed and developed a web application for browsing and ordering food, emphasizing a user-friendly and responsive interface. Included a powerful search feature to help users easily find and filter food items. Ensured a smooth and consistent experience across all devices, from desktops to mobile phones.",
       image: foodImage,
       link: "https://lively-scone-ed697a.netlify.app/",
-      color: "#ffe578",
+      color: "#ffe588",
       tags: ["#react.js", "#Tailwind CSS", "#javascript", "#figma"],
-      order: "right",
+      order: "left",
     },
     {
       title: "Cryptoplace",
@@ -51,7 +73,7 @@ const LatestWorks = () => {
         "#figma",
         "CoinGecko API",
       ],
-      order: "left",
+      order: "right",
     },
   ];
 
